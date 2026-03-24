@@ -102,15 +102,15 @@ const Hero = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-neon opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-neon"></span>
             </span>
-            The Income Identity Engine for Artisans
+            The Income Identity Engine for Artisans 🚀
           </motion.div>
           
           <h1 className="text-5xl md:text-7xl font-extrabold leading-[1.1] mb-6 tracking-tight">
-            Turn Your Daily Work Into <span className="text-gradient">Financial Power</span>
+            Turn Your Craft Into <span className="text-gradient">Capital</span>
           </h1>
           
           <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-lg leading-relaxed">
-            CraftID helps artisans turn every payment into a verified transaction history, unlocking credit, loans, and global opportunities.
+            Every payment you receive builds your financial story. CraftID transforms your hard work into a verified credit history—unlocking loans, capital, and opportunities that banks previously denied.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -283,7 +283,7 @@ const HowItWorks = () => {
             How CraftID <span className="text-gradient">Works</span>
           </motion.h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            Four simple steps to transform your artisanal business into a recognized financial entity.
+            From artisan to entrepreneur—build a financial identity that speaks for itself. No bank statements. No paperwork. Just your craft.
           </p>
         </div>
 
@@ -437,11 +437,11 @@ const CraftScoreSection = () => {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-6xl font-black mb-6">
-            Your Income, <br />
-            <span className="text-gradient">Now Recognized</span>
+            Your CraftScore, <br />
+            <span className="text-gradient">Your Passport to Credit</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            We use AI to analyze your transaction patterns, client consistency, and growth to generate a score that banks actually trust.
+            Our AI analyzes your payment patterns—frequency, consistency, growth—to generate a score that banks trust. Your transaction history is your credit report.
           </p>
         </motion.div>
 
@@ -676,11 +676,11 @@ const JobMatching = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
-              Get Found by <br />
-              <span className="text-gradient">Clients Near You</span>
+              Turn Skill Into <br />
+              <span className="text-gradient">Demand</span>
             </h2>
             <p className="text-slate-400 text-lg mb-10">
-              CraftID isn't just a wallet; it's a marketplace. We match your verified skills and transaction history with clients looking for quality work in your area.
+              CraftID is your marketplace. Clients searching for quality artisans in their area find YOU—powered by your verified transaction history and authentic reviews.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -776,11 +776,11 @@ const FinalCTA = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
-            Start Building Your <br />
-            <span className="text-gradient">Financial Identity</span> Today
+            Your Next Chapter <br />
+            <span className="text-gradient">Starts Here</span>
           </h2>
           <p className="text-slate-400 text-xl mb-12">
-            Join thousands of artisans who are turning their daily hard work into a recognized financial future.
+            Join 85,000+ artisans who've transformed their craft into capital. No paperwork. No bank statements. Just your work, speaking for itself.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
