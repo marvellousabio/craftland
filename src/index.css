@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @import "tailwindcss";
 
 @theme {
@@ -17,6 +19,7 @@
 @layer utilities {
   .glass {
     @apply backdrop-blur-xl bg-white/5 border border-white/10;
+    will-change: backdrop-filter;
   }
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-blue via-brand-purple to-brand-neon;
@@ -26,4 +29,3 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');

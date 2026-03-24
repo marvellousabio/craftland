@@ -60,18 +60,25 @@ const Navbar = () => {
 
       <AnimatePresence>
         {mobileMenuOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 right-0 glass border-t border-white/10 p-6 flex flex-col gap-6 md:hidden"
+            className="fixed top-[72px] left-0 right-0 z-40 border-t border-white/10 p-6 flex flex-col gap-2 md:hidden"
+            style={{
+              backdropFilter: 'blur(40px) saturate(200%)',
+              WebkitBackdropFilter: 'blur(40px) saturate(200%)',
+              backgroundColor: 'rgba(15, 23, 42, 0.9)',
+              willChange: 'backdrop-filter, transform',
+              transform: 'translateZ(0)'
+            }}
           >
-            <a href="#how-it-works" onClick={() => setMobileMenuOpen(false)}>How it Works</a>
-            <a href="#craftscore" onClick={() => setMobileMenuOpen(false)}>CraftScore</a>
-            <a href="#benefits" onClick={() => setMobileMenuOpen(false)}>Benefits</a>
-            <a href="#jobs" onClick={() => setMobileMenuOpen(false)}>Job Matching</a>
-            <hr className="border-white/10" />
-            <button className="w-full py-3 bg-white text-slate-950 rounded-xl font-bold">Get Started</button>
+            <a href="#how-it-works" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-200">How it Works</a>
+            <a href="#craftscore" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-200">CraftScore</a>
+            <a href="#benefits" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-200">Benefits</a>
+            <a href="#jobs" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-200">Job Matching</a>
+            <hr className="border-white/10 my-2" />
+            <button className="w-full py-3 bg-white text-slate-950 rounded-xl font-bold hover:bg-brand-neon hover:scale-[1.02] active:scale-[0.98] transition-all duration-200">Get Started</button>
           </motion.div>
         )}
       </AnimatePresence>
